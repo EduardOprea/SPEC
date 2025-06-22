@@ -20,3 +20,4 @@ git+https://github.com/mkocabas/PARE.git
 matplotlib_inline
 ipython
 jupyter
+spacy==2.0.18
