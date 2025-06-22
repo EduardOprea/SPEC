@@ -25,6 +25,10 @@ flatten-dict==0.2.0
 fastai==1.0.55
 jpeg4py==0.1.4
 chumpy==0.70
+matplotlib_inline
+ipython
+jupyter
+pyglet==1.5.27
 spacy==2.0.18
 git+https://github.com/mkocabas/PARE.git
 git+https://github.com/mkocabas/yolov3-pytorch.git
