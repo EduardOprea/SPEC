@@ -23,7 +23,9 @@ from pare.utils.vis_utils import draw_skeleton, visualize_joint_error, visualize
 
 from pare.utils.mesh_utils import get_checkerboard_plane
 
-os.environ['PYOPENGL_PLATFORM'] = 'egl'
+#os.environ['PYOPENGL_PLATFORM'] = 'egl'
+os.environ["PYOPENGL_PLATFORM"] = "osmesa"      # or "egl"
+os.environ["PYRENDER_OFFSCREEN"] = "true"   
 # os.environ['EGL_DEVICE_ID'] = os.environ['GPU_DEVICE_ORDINAL'].split(',')[0] \
 #     if 'GPU_DEVICE_ORDINAL' in os.environ.keys() else '0'
 
